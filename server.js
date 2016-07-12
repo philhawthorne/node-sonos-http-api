@@ -39,7 +39,7 @@ if (userSettings) {
 }
 
 var fileServer = new nodeStatic.Server(webroot);
-var discovery = new SonosDiscovery(settings);
+var discovery = new SonosDiscovery({disableIpDiscovery: true});
 var api = new SonosHttpAPI(discovery, settings);
 
 var requestHandler = function (req, res) {
