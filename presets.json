@@ -4,15 +4,15 @@
     "players": [
       {
         "roomName": "Living Room",
-        "volume": 17
+        "volume": 10
       },
       {
         "roomName": "Main Bedroom",
-        "volume": 15
+        "volume": 10
       },
       {
         "roomName": "Office",
-        "volume": 15
+        "volume": 10
       }
     ],
     "favorite": "Chillout",
