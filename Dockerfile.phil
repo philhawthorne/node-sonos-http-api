@@ -1,0 +1,17 @@
+FROM mhart/alpine-node:5.5
+
+RUN apk update
+RUN apk add git openssh
+
+# Clone the fork of the Sonos API into the app folder
+WORKDIR /opt
+RUN git clone https://github.com/philhawthorne/node-sonos-http-api.git app
+
+WORKDIR /opt/app
+RUN git fetch origin
+RUN git checkout add-google-tts
+
+EXPOSE 5005/tcp 3500/tcp
+
+RUN npm install --production
+CMD ["npm", "start"]
