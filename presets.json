@@ -1,0 +1,21 @@
+{
+  "chillout": {
+    "playMode": "SHUFFLE",
+    "players": [
+      {
+        "roomName": "Living Room",
+        "volume": 17
+      },
+      {
+        "roomName": "Main Bedroom",
+        "volume": 15
+      },
+      {
+        "roomName": "Office",
+        "volume": 15
+      }
+    ],
+    "favorite": "Chillout",
+    "pauseOthers": true
+  }
+}
