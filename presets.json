@@ -17,5 +17,24 @@
     ],
     "favorite": "Chillout",
     "pauseOthers": true
+  },
+  "christmas": {
+    "playMode": "SHUFFLE",
+    "players": [
+      {
+        "roomName": "Living Room",
+        "volume": 15
+      },
+      {
+        "roomName": "Main Bedroom",
+        "volume": 15
+      },
+      {
+        "roomName": "Office",
+        "volume": 15
+      }
+    ],
+    "favorite": "Christmas Party",
+    "pauseOthers": true
   }
 }
